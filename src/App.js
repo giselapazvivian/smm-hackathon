@@ -10,7 +10,9 @@ import {
   Route} from 'react-router-dom';
 import BookingRoom from './components/BookingRoom';
 import SearchCollaborator from './components/SearchCollaborator';
-import BookingDesk from './components/BookingDesk';
+import BookingDesk from './components/SelectDesk';
+import Desk from './components/Desk';
+import SelectDesk from './components/SelectDesk';
 import SuccessfulBooking from './components/SuccessfulBooking';
 
 
@@ -27,6 +29,12 @@ return (
           </Route>
           <Route path="/reservaescritorio">
             <BookingDesk/>
+            </Route>
+          <Route path="/seleccionarescritorio">
+            <SelectDesk/>
+          </Route>
+          <Route path="/escritorio">
+            <Desk/>
           </Route>
           <Route path="/reservasala">
             <BookingRoom />

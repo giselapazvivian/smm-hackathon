@@ -1,6 +1,5 @@
 {
-    "name": "Oficina Santiago",
-    "Zonas de Trabajo": [
+    "zonasDeTrabajo": [
       {
         "id": "G_1",
         "nombre": "G_1",
@@ -24,7 +23,8 @@
       {
         "id": "G_5",
         "nombre": "G_5",
-        "disponibilidad": 12
+        "disponibilidad": 12,
+        "escritorio":1
       },
       {
         "id": "G_6",
